@@ -37,8 +37,6 @@ TreeC4_5: generates the root tree node, fit the decision tree model and make pre
 |make_decision() | predict the decision for each sample in the fitted model |
 |predict() | passed in the testing datasets and predict the sample one by one, then return the list of decisions for each sample |
 
-<br>
-
 ## Dataset description
 The “iris” dataset is used to implement the algorithm, and another two datasets, “Blood transfusion service center” and “wine quality”, are used to evaluate the algorithm. The latter two datasets can be used to test the robustness of my algorithm. All attributes (except for the target attribute) in these datasets are numerical types
 
@@ -50,6 +48,5 @@ This dataset has 748 samples (501 samples for training & 246 samples for testing
 
 ### “Wine Quality” dataset
 This dataset has 4898 samples with 12 numerical attributes.I use this dataset to evaluate whether my algorithm can work well with the dataset with multiple attributes. I randomly select 750 of the total samples and categorize the target value by whether the target value is higher or lower than 6.5 to the categorical value “good” or “not good”, and split these 750 samples to 502 samples for training and 248 for testing my model.
-
 
 PS: Since I only study the impact of C4.5 algorithm on continuous data, this decision tree model can not handle the discrete data.
