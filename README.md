@@ -1,6 +1,11 @@
 # Decision Tree C4.5 Implementation
 Note: This decision tree model can only handle the numerical datasets.
 
+Subject info: 31005 Machine Learning <br>
+Developer: Hang Sheng <br>
+Assignment mark: 50/50 <br>
+Final mark for this subject: 100/100
+
 ## Introduction
 Decision tree is a supervised learning algorithm that uses observed data and labels to build a decision tree. Given the observable datasets with attributes: {X1 ,X2, ...., Xn} and labels: {C1, C2, .....,Cn}, the decision tree fT may have a mapping from the input datasets with n attribute values to make a prediction y, the mapping relation is: fT(X1, X2, ...., Xn) = y , y ∈ {C1, C2, .....,Cn}. The tree fT performs the mapping by viewing the condition of the split attribute node by node until reaching the leaf node and making the decision. 
 
