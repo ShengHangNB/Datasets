@@ -52,5 +52,6 @@ TreeC4_5: generates the root tree node, fit the decision tree model and make pre
 |make_decision() | predict the decision for each sample in the fitted model |
 |predict() | passed in the testing datasets and predict the sample one by one, then return the list of decisions for each sample |
 
+<br>
 
-Note: This decision tree model can only handle the numerical datasets.
+PS: Since I only study the impact of C4.5 algorithm on continuous data, this decision tree model can not handle the discrete data.
