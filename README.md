@@ -21,7 +21,7 @@ This dataset has 4898 samples with 12 numerical attributes.I use this dataset to
 ### 31005-MLAssignment2.ipynb
 Three classes are defined to implement the decision tree C4.5 algorithm which are:
 
-1. Myutils: This class includes some math operation functions as follows: <br>
+Myutils: This class includes some math operation functions as follows: <br>
 
 
 |Function name | Usage |
@@ -33,7 +33,7 @@ Three classes are defined to implement the decision tree C4.5 algorithm which ar
 
 <br><br>
 
-2. TreeNode: used to generate the tree node and print the node's details recursively. <br>
+TreeNode: used to generate the tree node and print the node's details recursively. <br>
 
 
 |Function name | Usage |
@@ -43,7 +43,7 @@ Three classes are defined to implement the decision tree C4.5 algorithm which ar
 
 <br><br>
 
-3. TreeC4_5: generates the root tree node, fit the decision tree model and make predictions. <br>
+TreeC4_5: generates the root tree node, fit the decision tree model and make predictions. <br>
 
 |Function name| Usage |
 |------ | ------- |
