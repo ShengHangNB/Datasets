@@ -1,6 +1,6 @@
 # Decision Tree C4.5 Implementation
 
-Subject info: 31005 Machine Learning in University of Technology Sydeney <br>
+Subject info: 31005 Machine Learning (University of Technology Sydney) <br>
 Developer: Hang Sheng<br>
 Assignment mark: 50/50 <br>
 Final mark for this subject: 100/100
