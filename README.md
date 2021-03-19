@@ -21,8 +21,6 @@ This dataset has 4898 samples with 12 numerical attributes.I use this dataset to
 ### 31005-MLAssignment2.ipynb
 Three classes are defined to implement the decision tree C4.5 algorithm which are:
 
-<br>
-
 Myutils: This class includes some math operation functions as follows: <br>
 
 |Function name | Usage |
