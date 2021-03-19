@@ -5,8 +5,8 @@ Developer: Hang Sheng<br>
 Assignment mark: 50/50 <br>
 Final mark for this subject: 100/100
 
-## Infor in "31005-MLAssignment2.ipynb"
-Three classes are defined to implement the decision tree C4.5 algorithm which are:
+## Description for "31005-MLAssignment2.ipynb"
+To implement the decision tree C4.5 algorithm, I design three classes which are:
 
 Myutils: This class includes some math operation functions as follows: <br>
 
