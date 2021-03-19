@@ -5,8 +5,6 @@ Developer: Hang Sheng<br>
 Assignment mark: 50/50 <br>
 Final mark for this subject: 100/100
 
-<br>
-
 ## Description for "31005-MLAssignment2.ipynb"
 To implement the decision tree C4.5 algorithm, I design three classes which are:
 
