@@ -17,11 +17,12 @@ This dataset has 748 samples (501 samples for training & 246 samples for testing
 ### “Wine Quality” dataset
 This dataset has 4898 samples with 12 numerical attributes.I use this dataset to evaluate whether my algorithm can work well with the dataset with multiple attributes. I randomly select 750 of the total samples and categorize the target value by whether the target value is higher or lower than 6.5 to the categorical value “good” or “not good”, and split these 750 samples to 502 samples for training and 248 for testing my model.
 
+
 ### 31005-MLAssignment2.ipynb
 Three classes are defined to implement the decision tree C4.5 algorithm which are:
 
-1. Myutils <br>
-This class will be used in subsequent c4.5 decision tree construction, it includes some math operation functions as follows:
+1. Myutils:This class will be used in subsequent c4.5 decision tree construction, it includes some math operation functions as follows: <br>
+
 
 |Name | Usage |
 |------ | ------- |
@@ -30,17 +31,19 @@ This class will be used in subsequent c4.5 decision tree construction, it includ
 | compute_entropy() | calculate the information entropy |
 | compute_info_gain_ratio() | Calculate the information gain ratio of the specified attribute for a continuous variable |
 
-2. TreeNode <br>
-This class is mainly used to generate the tree node and print the node's details recursively.
+<br><br>
+
+2. TreeNode:This class is mainly used to generate the tree node and print the node's details recursively. <br>
+
 
 |Name | Usage |
 |------ | ------- |
 |make() | split the attribute according to the C4.5 algorithm and generate the child node by the value of split attribute. |
 |print_node_details()| print the information details of each node, this function is used to help me understand the tree structure and draw the decision tree structure later. |
 
-3. TreeC4_5 <br>
-This class is mainly generates the root tree node, fit the decision tree model and make predictions by the fitted model.
+<br><br>
 
+3. TreeC4_5:This class is mainly generates the root tree node, fit the decision tree model and make predictions by the fitted model. <br>
 
 |Name | Usage |
 |------ | ------- |
