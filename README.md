@@ -37,7 +37,7 @@ TreeC4_5: generates the root tree node, fit the decision tree model and make pre
 |make_decision() | predict the decision for each sample in the fitted model |
 |predict() | passed in the testing datasets and predict the sample one by one, then return the list of decisions for each sample |
 
-## Dataset description
+## Description for dataset
 The “iris” dataset is used to implement the algorithm, and another two datasets, “Blood transfusion service center” and “wine quality”, are used to evaluate the algorithm. The latter two datasets can be used to test the robustness of my algorithm. All attributes (except for the target attribute) in these datasets are numerical types
 
 ### “Iris” dataset
