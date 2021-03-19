@@ -21,8 +21,9 @@ This dataset has 4898 samples with 12 numerical attributes.I use this dataset to
 ### 31005-MLAssignment2.ipynb
 Three classes are defined to implement the decision tree C4.5 algorithm which are:
 
-Myutils: This class includes some math operation functions as follows: <br>
+<br>
 
+Myutils: This class includes some math operation functions as follows: <br>
 
 |Function name | Usage |
 |------ | ------- |
@@ -31,7 +32,7 @@ Myutils: This class includes some math operation functions as follows: <br>
 | compute_entropy() | calculate the information entropy |
 | compute_info_gain_ratio() | Calculate the information gain ratio of the specified attribute for a continuous variable |
 
-<br><br>
+<br>
 
 TreeNode: used to generate the tree node and print the node's details recursively. <br>
 
@@ -41,7 +42,7 @@ TreeNode: used to generate the tree node and print the node's details recursivel
 |make() | split the attribute according to the C4.5 algorithm and generate the child node by the value of split attribute. |
 |print_node_details()| print the information details of each node, this function is used to help me understand the tree structure and draw the decision tree structure later. |
 
-<br><br>
+<br>
 
 TreeC4_5: generates the root tree node, fit the decision tree model and make predictions. <br>
 
