@@ -21,10 +21,10 @@ This dataset has 4898 samples with 12 numerical attributes.I use this dataset to
 ### 31005-MLAssignment2.ipynb
 Three classes are defined to implement the decision tree C4.5 algorithm which are:
 
-1. Myutils:This class will be used in subsequent c4.5 decision tree construction, it includes some math operation functions as follows: <br>
+1. Myutils: This class includes some math operation functions as follows: <br>
 
 
-|Name | Usage |
+|Function name | Usage |
 |------ | ------- |
 | get_split_pointSet() | Discretize continuous attributes through the dichotomy |
 | get_discrete_variables() | Convert continuous variables through the split point into categorical variables |
@@ -33,19 +33,19 @@ Three classes are defined to implement the decision tree C4.5 algorithm which ar
 
 <br><br>
 
-2. TreeNode:This class is mainly used to generate the tree node and print the node's details recursively. <br>
+2. TreeNode: used to generate the tree node and print the node's details recursively. <br>
 
 
-|Name | Usage |
+|Function name | Usage |
 |------ | ------- |
 |make() | split the attribute according to the C4.5 algorithm and generate the child node by the value of split attribute. |
 |print_node_details()| print the information details of each node, this function is used to help me understand the tree structure and draw the decision tree structure later. |
 
 <br><br>
 
-3. TreeC4_5:This class is mainly generates the root tree node, fit the decision tree model and make predictions by the fitted model. <br>
+3. TreeC4_5: generates the root tree node, fit the decision tree model and make predictions. <br>
 
-|Name | Usage |
+|Function name| Usage |
 |------ | ------- |
 |fit() | fit the model by recall the make() function in the root node |
 |make_decision() | predict the decision for each sample in the fitted model |
